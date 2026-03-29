@@ -1,11 +1,11 @@
 from bs4 import BeautifulSoup
 
 # Extraction des informations souhaitées avec Beautiful Soup
-with open("index.html", "r", encoding="utf-8") as file:
-    soup = BeautifulSoup(file, "html.parser")
+with open("index.html", "r", encoding="utf-8") as file: #ouverture du fichier html et renommer comme file
+    soup = BeautifulSoup(file, "html.parser")           #lire et parcourir le fichier file
 
 # Extraction du titre de la page
-title = soup.title.string
+title = soup.title.string                       #extraire le titre dpuis soup 
 print("Titre de la page:", title)
 
 # Extraction du texte de la balise h1
