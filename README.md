@@ -18,5 +18,5 @@ Chaque chapitre contient un dossier `énoncé` et un dossier `correction`.
 
 ## À propos
 
-**Abdoulaye Djigo** — Étudiant Dev Data @ Orange Digital Center, Dakar  
+**Abdoulaye Djigo** — Apprenant Dev Data P8 @ Orange Digital Center, Dakar  
 En formation sur Python, algorithmique et data.
